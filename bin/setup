@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Install all dependencies
+yarn install
+
+# Setup configurable environment variables
+if [ ! -f .env ]; then
+  cp .env.example .env
+fi
+
+# Setup db.json
+if [ ! -f json-server/db/db.json ]; then
+  cp json-server/db/db.json.example json-server/db/db.json
+fi

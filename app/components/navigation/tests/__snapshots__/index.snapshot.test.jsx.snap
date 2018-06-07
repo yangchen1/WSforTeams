@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation renders correctly 1`] = `
+<nav
+  className="panel navbar navbar-default"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="navbar-header"
+    >
+      <span
+        className="navbar-brand"
+      >
+        React-base
+      </span>
+    </div>
+    <ul
+      className="nav navbar-nav"
+      role={null}
+    >
+      <li
+        className="active"
+        role="presentation"
+        style={undefined}
+      >
+        <a
+          aria-current="true"
+          className="active"
+          href="/"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          style={Object {}}
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className=""
+        role="presentation"
+        style={undefined}
+      >
+        <a
+          aria-current={false}
+          className={undefined}
+          href="/about"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          style={undefined}
+        >
+          About
+        </a>
+      </li>
+    </ul>
+    <ul
+      className="nav navbar-nav navbar-right"
+      role={null}
+    >
+      <li
+        className=""
+        role="presentation"
+        style={undefined}
+      >
+        <a
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+        >
+          Sign up
+        </a>
+      </li>
+      <li
+        className=""
+        role="presentation"
+        style={undefined}
+      >
+        <a
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+        >
+          Sign in
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;
+
+exports[`Navigation when user is logged in renders user navigations 1`] = `
+<nav
+  className="panel navbar navbar-default"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="navbar-header"
+    >
+      <span
+        className="navbar-brand"
+      >
+        React-base
+      </span>
+    </div>
+    <ul
+      className="nav navbar-nav"
+      role={null}
+    >
+      <li
+        className="active"
+        role="presentation"
+        style={undefined}
+      >
+        <a
+          aria-current="true"
+          className="active"
+          href="/"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          style={Object {}}
+        >
+          Home
+        </a>
+      </li>
+      <li
+        className=""
+        role="presentation"
+        style={undefined}
+      >
+        <a
+          aria-current={false}
+          className={undefined}
+          href="/about"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          style={undefined}
+        >
+          About
+        </a>
+      </li>
+    </ul>
+    <ul
+      className="nav navbar-nav navbar-right"
+      role={null}
+    >
+      <li
+        className=""
+        role="presentation"
+        style={undefined}
+      >
+        <a
+          aria-current={false}
+          className={undefined}
+          href="/profile"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          style={undefined}
+        >
+          test@test.com
+        </a>
+      </li>
+      <li
+        className=""
+        role="presentation"
+        style={undefined}
+      >
+        <a
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+        >
+          Sign out
+        </a>
+      </li>
+    </ul>
+  </div>
+</nav>
+`;
